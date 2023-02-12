@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/libs/resset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+
+  <div class="js-formcontainer form-container">
+    <form class="js-form form" action="">
+
+      <label for="username">
+        Username:
+        <br>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter username"
+          class="js-username form__input"
+        >
+      </label>
+
+      <label for="name">
+        Name:
+        <br>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          class="js-name form__input"
+        >
+      </label>
+
+      <label for="surname">
+        Surname:
+        <br>
+        <input
+          type="text"
+          name="surname"
+          id="surname"
+          placeholder="Enter your surname"
+          class="js-surname form__input"
+        >
+      </label>
+
+      <label for="password">
+        Password:
+        <br>
+        <input
+          type="password"   
+          name="password" 
+          id="password"
+          placeholder="Enter password"
+          class="js-password form__input"
+        >
+      </label>
+
+      <label for="password2">
+        Re-enter password:
+        <br>
+        <input
+          type="password"   
+          name="password2"
+          id="password2" 
+          placeholder="Re-enter password"
+          class="js-password2 form__input"
+        >
+      </label>
+
+      <label for="email">
+        E-mail:
+        <br>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter e-mail"
+          class="js-email form__input"
+        >
+      </label>
+
+      <button class="js-signupbutton form__signupbutton" type="submit">Sign Up</button>
+
+    </form>
+  </div>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script> -->
+  <script src="/scripts.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("form").submit(function(event) {
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var password = $("#password").val();
+        var emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+        
+        if (!name) {
+          alert("Name is required!");
+          event.preventDefault();
+        } else if (!email) {
+          alert("Email is required!");
+          event.preventDefault();
+        } else if (!emailRegex.test(email)) {
+          alert("Invalid email address!");
+          event.preventDefault();
+        } else if (!password) {
+          alert("Password is required!");
+          event.preventDefault();
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email">
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body> -->
