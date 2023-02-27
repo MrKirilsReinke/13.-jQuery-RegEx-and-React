@@ -1,7 +1,7 @@
 # Quickstart
 Open your terminal and write:
 ```
-npm i jquery
+npm i
 ```
 
 When all packages have been installed run:
