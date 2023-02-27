@@ -1,10 +1,10 @@
 # Quickstart
 Open your terminal and write:
 ```
-npm i
+npm i jquery
 ```
 
 When all packages have been installed run:
 ```
-npm run dev
+npm start
 ```
